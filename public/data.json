@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "brand": "Nike",
+        "product_name": "Men's Running Shoes",
+        "price": 89.99,
+        "description": "Experience the ultimate in running comfort with Nike's Men's Running Shoes. These high-performance shoes feature advanced cushioning and support, making every run a breeze. The breathable mesh upper keeps your feet cool and dry, while the responsive midsole provides excellent energy return. With a durable rubber outsole for enhanced traction, these shoes are perfect for both casual runners and dedicated athletes. Whether you're hitting the trails or pounding the pavement, these shoes will help you reach your running goals. Available in a variety of colors and sizes. Get ready to elevate your running game!",
+        "image": "https://i.ibb.co/qyywXn2/domino-164-6w-VEHf-I-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "brand": "Adidas",
+        "product_name": "Women's Yoga Mat",
+        "price": 29.99,
+        "description": "Elevate your yoga practice with the Adidas Women's Yoga Mat. This non-slip mat is designed for women who value comfort and stability during their yoga sessions. Its textured surface prevents slips and provides extra grip for various poses. The extra-thick cushioning ensures a comfortable practice, even on hard surfaces. Lightweight and easy to carry with the included carrying strap, this yoga mat is ideal for both beginners and experienced yogis. It's available in serene colors that complement your zen atmosphere. Enhance your yoga journey with the Adidas Women's Yoga Mat, your trusted companion for relaxation and wellness.",
+        "image": "https://i.ibb.co/GnMJ0sW/nature-zen-Eszi6j-Z0-Pfk-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "brand": "Under Armour",
+        "product_name": "Men's Compression Shirt",
+        "price": 34.99,
+        "description": "Maximize your performance with the Under Armour Men's Compression Shirt. This moisture-wicking shirt for men is suitable for various sports activities, providing exceptional comfort and support. The compression fit helps reduce muscle fatigue and enhances circulation, allowing you to push your limits. The ultra-soft fabric offers a second-skin feel and regulates body temperature, keeping you cool and dry during intense workouts. With 4-way stretch construction, it ensures unrestricted movement. Ideal for running, weightlifting, or any other athletic pursuit, this compression shirt is a game-changer. Elevate your training with Under Armour's advanced sportswear technology.",
+        "image": "https://i.ibb.co/TtPK3TN/V5-1365229-001-FC.webp"
+    },
+    {
+        "id": 4,
+        "brand": "New Balance",
+        "product_name": "Women's Trail Running Shoes",
+        "price": 69.99,
+        "description": "Conquer the trails with New Balance Women's Trail Running Shoes. These rugged shoes are designed for female outdoor enthusiasts, providing excellent traction and stability on rough terrain. The durable construction and grippy outsole make them perfect for hiking, trail running, and off-road adventures. The comfortable midsole ensures all-day comfort, while the protective toe cap guards against obstacles. With a breathable upper and a secure lacing system, these trail running shoes will be your trusted companions in your outdoor pursuits.",
+        "image": "https://i.ibb.co/7CVPpT2/istockphoto-618982838-612x612.jpg"
+    },
+    {
+        "id": 5,
+        "brand": "Puma",
+        "product_name": "Men's Training Shorts",
+        "price": 24.99,
+        "description": "Stay cool and comfortable during your workouts with Puma's Men's Training Shorts. These breathable and lightweight shorts are perfect for the gym, running, or any active pursuit. The moisture-wicking fabric effectively manages sweat, ensuring you stay dry and focused. The elastic waistband provides a secure fit, and the roomy fit allows for a wide range of motion. With a convenient zip pocket for your essentials, these training shorts are both functional and stylish. Whether you're hitting the treadmill or heading outdoors for a run, Puma's Training Shorts will keep you performing at your best.",
+        "image": "https://i.ibb.co/QNN7KTG/istockphoto-1304027577-612x612.jpg"
+    },
+    {
+        "id": 6,
+        "brand": "New Balance",
+        "product_name": "Women's Running Jacket",
+        "price": 49.99,
+        "description": "Conquer your outdoor runs in style with the New Balance Women's Running Jacket. This water-resistant jacket is specifically designed for women who love to run in all weather conditions. The breathable fabric offers excellent ventilation while keeping you dry in light rain. Reflective details enhance visibility during low-light runs, ensuring your safety. The adjustable hood and cuffs provide a custom fit, and the zippered pockets offer convenient storage for your essentials. Whether you're training for a marathon or enjoying a leisurely jog, this running jacket is a must-have for any female runner.",
+        "image": "https://i.ibb.co/2nW1yzr/istockphoto-157626068-612x612.jpg"
+    },
+    {
+        "id": 7,
+        "brand": "ASICS",
+        "product_name": "Men's Cross Training Shoes",
+        "price": 79.99,
+        "description": "Elevate your cross-training game with ASICS Men's Cross Training Shoes. These versatile shoes are designed for durability and support, making them perfect for intense workouts. The sturdy construction ensures stability during weightlifting, while the cushioned midsole provides shock absorption and comfort for high-impact activities. The breathable upper keeps your feet cool, and the rubber outsole offers superior traction on various surfaces. Whether you're lifting, jumping, or performing agility drills, these cross-training shoes will help you achieve your fitness goals with confidence.",
+        "image": "https://i.ibb.co/ggDBP65/malik-skydsgaard-5-PY59-Okip-Mg-unsplash.jpg"
+    },
+    {
+        "id": 8,
+        "brand": "Nike",
+        "product_name": "Women's Gym Leggings",
+        "price": 39.99,
+        "description": "Enhance your performance and style with Nike's Women's Gym Leggings. These stretchy and stylish leggings are designed to meet the demands of your gym workouts. The high-quality fabric offers exceptional stretch and support, allowing you to move freely during squats, lunges, or yoga poses. The wide, comfortable waistband stays in place, and the moisture-wicking technology keeps you dry and comfortable. Whether you're hitting the yoga studio, lifting weights, or going for a jog, these gym leggings are your go-to choice. Choose from a variety of colors and patterns to express your unique fitness fashion.",
+        "image": "https://i.ibb.co/Th76LFn/9088cd7c-37a7-43ce-8279-44ca2660a995.webp"
+    },
+    {
+        "id": 9,
+        "brand": "Under Armour",
+        "product_name": "Men's Weightlifting Gloves",
+        "price": 27.99,
+        "description": "Protect your hands and optimize your weightlifting performance with Under Armour's Men's Weightlifting Gloves. These padded gloves provide a secure grip on barbells and dumbbells, reducing the risk of calluses and blisters. The adjustable wrist closure ensures a personalized fit, and the breathable material keeps your hands dry. The strategically placed padding offers extra protection during heavy lifts, enhancing your comfort and confidence. Whether you're a seasoned weightlifter or just starting, these gloves will support you in achieving your fitness goals and maintaining your grip on those challenging lifts.",
+        "image": "https://i.ibb.co/gMpwP1f/istockphoto-543331124-612x612.jpg"
+    },
+    {
+        "id": 10,
+        "brand": "Adidas",
+        "product_name": "Women's Yoga Block Set",
+        "price": 14.99,
+        "description": "Take your yoga practice to the next level with the Adidas Women's Yoga Block Set. This set includes two high-density foam yoga blocks that assist in various poses and stretches. They provide the stability and support you need to achieve better alignment and deeper stretches. Whether you're a beginner or an experienced yogi, these blocks are a valuable addition to your practice. The lightweight and durable design ensures easy portability and long-lasting use. Improve your flexibility, balance, and overall yoga experience with these essential yoga blocks from Adidas.",
+        "image": "https://i.ibb.co/qyw4Sgc/istockphoto-1307599895-170667a.jpg"
+    },
+    {
+        "id": 11,
+        "brand": "Reebok",
+        "product_name": "Men's Workout T-Shirt",
+        "price": 19.99,
+        "description": "Maximize your workout performance and comfort with the Reebok Men's Workout T-Shirt. This comfortable and moisture-wicking t-shirt is an ideal choice for the gym, sports, or any active endeavor. The soft and breathable fabric effectively manages sweat, keeping you dry and cool during your workouts. Its relaxed fit and crew neck design ensure a comfortable and stylish look. Whether you're lifting weights, running, or participating in team sports, this workout t-shirt is versatile and dependable. Elevate your training wardrobe with the quality and performance of Reebok.",
+        "image": "https://i.ibb.co/64N5bTQ/front-view-male-training-with-weights-23-2148353070.jpg"
+    },
+    {
+        "id": 12,
+        "brand": "Puma",
+        "product_name": "Women's CrossFit Shoes",
+        "price": 64.99,
+        "description": "Dominate your CrossFit workouts with Puma's Women's CrossFit Shoes. These sturdy and supportive shoes are built to endure intense training sessions. The durable construction provides stability during weightlifting, while the cushioned insole ensures comfort during high-impact exercises. The breathable upper keeps your feet cool and dry, and the rubber outsole offers superior grip on various surfaces. Whether you're lifting heavy weights, performing box jumps, or tackling challenging WODs, these CrossFit shoes will be your trusted partner in reaching your fitness goals. Choose style and performance with Puma's Women's CrossFit Shoes.",
+        "image": "https://i.ibb.co/XsHMLdw/istockphoto-1346094881-612x612.jpg"
+    }
+]

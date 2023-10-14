@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "name": "Man Workout",
+        "image": "https://i.ibb.co/jvCySgc/Adobe-Stock-277239243-2x-35d4a5da-48d1-419b-b80d-d450749ad43e.webp",
+        "details": "Our Man Workout program is designed to help men of all fitness levels achieve their fitness goals. Whether you're looking to build muscle, improve strength, or boost endurance, our experienced trainers are here to guide you. Our comprehensive program includes a mix of strength training, cardio, and flexibility exercises to provide a well-rounded fitness experience. We offer personalized workouts to suit your needs and expert guidance to ensure you make the most of your gym time. Join our Man Workout program and take the first step toward a healthier, stronger, and more confident you. Service Fee: $49.99/month."
+    },
+    {
+        "id": 2,
+        "name": "Women's Workout",
+        "image": "https://i.ibb.co/QXkVwrm/Adobe-Stock-320239636-2x-ba64d74c-9b55-47aa-84b7-ecef076d1eb1.webp",
+        "details": "Our Women's Workout program is tailored for women who want to achieve their fitness goals in a supportive and empowering environment. Our female trainers understand the unique needs of women and will guide you through effective workouts. Whether you're aiming to improve strength, increase flexibility, or enhance cardiovascular health, we've got you covered. You'll enjoy a variety of exercises, including yoga, strength training, and high-energy cardio. Our Women's Workout program promotes self-confidence and a sense of community. Service Fee: $44.99/month."
+    },
+    {
+        "id": 3,
+        "name": "Hill Climbing",
+        "image": "https://i.ibb.co/bP4SnJm/Adobe-Stock-50243561-2x-f38ce977-4de0-43ad-a547-a1f9e4cef83c.webp",
+        "details": "Hill Climbing is the ultimate outdoor adventure for nature enthusiasts and fitness lovers. Join us on exhilarating journeys through picturesque hills and challenging terrain. Our experienced guides will lead you through stunning landscapes, providing both a physical and mental challenge. Whether you're a beginner or an experienced hiker, our Hill Climbing adventures offer something for everyone. Enjoy the fresh air, breathtaking views, and the sense of accomplishment when you conquer those peaks. Service Fee: $79.99 per adventure."
+    },
+    {
+        "id": 4,
+        "name": "Yoga Classes",
+        "image": "https://i.ibb.co/Y7mtDKM/logan-weaver-lgnwvr-amgv9-YUg-MA-unsplash.jpg",
+        "details": "Experience the serenity of our Yoga Classes. Whether you're a beginner or an experienced yogi, our classes are designed to help you find balance, flexibility, and inner peace. Our certified instructors will guide you through various yoga styles, including Hatha, Vinyasa, and Restorative yoga. We offer both in-person and online classes to suit your preferences. Enhance your well-being, reduce stress, and improve your mental and physical health through the practice of yoga. Service Fee: $14.99 per class or $99.99/month for unlimited access.",
+        "theme": "Serenity and Mind-Body Connection"
+    },
+    {
+        "id": 5,
+        "name": "Personal Training",
+        "image": "https://i.ibb.co/Hgght90/nathan-dumlao-NXMZxyg-Mw8o-unsplash.jpg",
+        "details": "Get the personalized attention and tailored workouts you deserve with our Personal Training services. Our certified trainers will create a customized fitness plan to address your specific goals, whether it's weight loss, strength gain, or overall wellness. With one-on-one sessions, you'll receive expert guidance, motivation, and accountability to help you achieve your fitness ambitions. We'll track your progress and make adjustments as needed. Invest in yourself with our Personal Training program and embark on a journey to a healthier, fitter you. Service Fee: Varies based on session frequency and duration.",
+        "theme": "Personalized Fitness and Accountability"
+    },
+    {
+        "id": 6,
+        "name": "Pilates Classes",
+        "image": "https://i.ibb.co/zr0tr9d/jaspinder-singh-Cbk-Q3-Uqf73-A-unsplash.jpg",
+        "details": "Discover the power of Pilates with our Pilates Classes. This low-impact, high-benefit fitness program is perfect for individuals of all ages and fitness levels. Our certified instructors will guide you through a series of controlled movements that improve strength, flexibility, and posture. Whether you're aiming to strengthen your core, alleviate back pain, or enhance overall body awareness, Pilates has you covered. We offer both mat-based and equipment-based classes to suit your preferences. Join our Pilates community and experience a balanced and rejuvenating workout. Service Fee: $19.99 per class or $129.99/month for unlimited access."
+    }
+]

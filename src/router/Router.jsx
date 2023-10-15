@@ -3,6 +3,8 @@ import Home from "../pages/home/Home";
 import Root from "../layout/Root";
 import FeaturedProducts from "../pages/featuredProducts/FeaturedProducts";
 import ServiceCardDetails from "../components/ServiceCardDetails";
+import Login from "../pages/login/Login";
+import Register from "../pages/register/Register";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
         path: "/service/:id",
         element: <ServiceCardDetails></ServiceCardDetails>,
         loader: () => fetch("/public/services.json"),
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/register",
+        element: <Register></Register>,
       },
     ],
   },

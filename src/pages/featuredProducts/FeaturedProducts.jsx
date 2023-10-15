@@ -17,7 +17,7 @@ const FeaturedProducts = () => {
   }, []);
   // console.log(products);
   return (
-    <div className="mt-24 pb-16 bg-[#141E23]">
+    <div className="min-h-screen pb-16 bg-[#141E23]">
       <div className=" mx-auto  text-center">
         <h2 className="text-4xl text-white pt-14 font-bold">FEATURED PRODUCTS</h2>
       </div>

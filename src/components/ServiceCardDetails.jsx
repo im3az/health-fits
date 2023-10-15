@@ -18,7 +18,7 @@ const ServiceCardDetails = () => {
 
   console.log(details);
   return (
-    <div className="bg-white border  shadow-sm sm:flex dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] mt-11">
+    <div className="bg-white border min-h-screen  shadow-sm sm:flex dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] ">
       <div className="flex-shrink-0 relative w-full rounded-t-xl overflow-hidden pt-[40%] sm:rounded-l-xl sm:max-w-[15rem] md:rounded-tr-none md:max-w-xs">
         <img
           className="w-full h-full absolute top-0 left-0 object-cover"

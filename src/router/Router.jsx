@@ -5,6 +5,7 @@ import FeaturedProducts from "../pages/featuredProducts/FeaturedProducts";
 import ServiceCardDetails from "../components/ServiceCardDetails";
 import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -18,11 +19,19 @@ const router = createBrowserRouter([
       },
       {
         path: "/featuredProducts",
-        element: <FeaturedProducts></FeaturedProducts>,
+        element: (
+          <PrivateRoute>
+            <FeaturedProducts></FeaturedProducts>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/service/:id",
-        element: <ServiceCardDetails></ServiceCardDetails>,
+        element: (
+          <PrivateRoute>
+            <ServiceCardDetails></ServiceCardDetails>
+          </PrivateRoute>
+        ),
         loader: () => fetch("/public/services.json"),
       },
       {

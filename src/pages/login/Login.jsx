@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import toast, { Toaster } from "react-hot-toast";
@@ -6,6 +6,8 @@ import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import app from "../../firebase/firebase.config";
 
 const Login = () => {
+  const [loginError, setLoginError] = useState("");
+
   const auth = getAuth(app);
   const { signIn } = useContext(AuthContext);
 
@@ -24,6 +26,7 @@ const Login = () => {
       })
       .catch((error) => {
         console.log(error);
+        setLoginError(error.message);
       });
   };
 
@@ -76,6 +79,10 @@ const Login = () => {
               <button className="btn btn-primary">Login</button>
             </div>
           </form>
+
+          <div className="text-center font-semibold text-red-800">
+            {loginError && <p>{loginError}</p>}
+          </div>
 
           <div className="mt-6">
             <div className="relative">

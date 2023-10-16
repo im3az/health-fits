@@ -1,25 +1,39 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import toast, { Toaster } from "react-hot-toast";
 
 const Register = () => {
+  const [registerError, setRegisterError] = useState("");
   const { createUser } = useContext(AuthContext);
 
   const handleRegister = (e) => {
     e.preventDefault();
+
     const email = e.target.email.value;
     const password = e.target.password.value;
     const name = e.target.name.value;
     // console.log(email, password, name);
+    setRegisterError("");
+
+    if (password.length < 6) {
+      setRegisterError("Password must have at least 6 characters or more");
+      return;
+    } else if (!/[A-Z]/.test(password)) {
+      setRegisterError("Password has no capital letter");
+      return;
+    } else if (!/[^a-zA-Z0-9]/.test(password)) {
+      setRegisterError("Password has no special character.");
+      return;
+    }
     createUser(email, password)
       .then((result) => {
         console.log(result.user);
-
         toast.success("Successfully registered!");
       })
       .catch((error) => {
         console.log(error);
+        setRegisterError(error.message);
       });
   };
 
@@ -72,6 +86,9 @@ const Register = () => {
               <button className="btn btn-primary">Register</button>
             </div>
           </form>
+          <div className="text-center font-semibold text-red-800">
+            {registerError && <p>{registerError}</p>}
+          </div>
           <div className="sm:mx-auto sm:w-full sm:max-w-md pb-5">
             <p className="mt-2 text-center text-base text-gray-600 max-w">
               Or

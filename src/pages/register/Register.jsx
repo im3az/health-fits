@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
+import toast, { Toaster } from "react-hot-toast";
 
 const Register = () => {
   const { createUser } = useContext(AuthContext);
@@ -14,7 +15,8 @@ const Register = () => {
     createUser(email, password)
       .then((result) => {
         console.log(result.user);
-        alert("congo on registration");
+
+        toast.success("Successfully registered!");
       })
       .catch((error) => {
         console.log(error);
@@ -23,6 +25,7 @@ const Register = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 mx-auto">
+      <Toaster />
       <div className="text-center">
         <h1 className="text-5xl py-10 font-bold text-black">Register now!</h1>
       </div>
@@ -66,7 +69,7 @@ const Register = () => {
               />
             </div>
             <div className="form-control mt-6">
-              <button className="btn btn-primary">Login</button>
+              <button className="btn btn-primary">Register</button>
             </div>
           </form>
           <div className="sm:mx-auto sm:w-full sm:max-w-md pb-5">

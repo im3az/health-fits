@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
+import toast, { Toaster } from "react-hot-toast";
 
 const Login = () => {
   const { signIn } = useContext(AuthContext);
@@ -14,7 +15,7 @@ const Login = () => {
     signIn(email, password)
       .then((result) => {
         console.log(result.user);
-        alert("congo on login");
+        toast.success("Successfully Logged in!");
       })
       .catch((error) => {
         console.log(error);
@@ -23,6 +24,7 @@ const Login = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 mx-auto">
+      <Toaster />
       <div className="text-center">
         <h1 className="text-5xl py-10 font-bold text-black">Login now!</h1>
       </div>

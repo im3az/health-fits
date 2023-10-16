@@ -2,12 +2,14 @@ import { Link, NavLink } from "react-router-dom";
 import userDefaultPic from "../assets/user.png";
 import { useContext } from "react";
 import { AuthContext } from "../providers/AuthProvider";
+import toast, { Toaster } from "react-hot-toast";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
 
   const handleSignOut = () => {
     logOut().then().catch();
+    toast.error("Signed Out");
   };
 
   const navLinks = (
@@ -31,6 +33,7 @@ const Navbar = () => {
   );
   return (
     <div className="navbar text-white bg-[#1E1E1E]">
+      <Toaster />
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

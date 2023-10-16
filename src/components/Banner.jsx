@@ -1,10 +1,10 @@
 const Banner = () => {
   return (
-    //   <img src="/public/slider.webp" alt="" />
     <div
       className="hero min-h-screen"
       style={{
-        backgroundImage: "url(/public/slider.webp)",
+        backgroundImage:
+          "url(https://i.ibb.co/HdKZG5p/Slider-1-ec658754-1be1-4610-818f-26af9a3ec770.webp)",
       }}
     >
       <div className="hero-overlay bg-opacity-30"></div>

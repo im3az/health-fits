@@ -34,7 +34,7 @@ const router = createBrowserRouter([
             <ServiceCardDetails></ServiceCardDetails>
           </PrivateRoute>
         ),
-        loader: () => fetch("/public/services.json"),
+        loader: () => fetch("/services.json"),
       },
       {
         path: "/login",
